@@ -3,7 +3,7 @@
 --question 2:
    SELECT * FROM syntax_practice WHERE username LIKE '%a%';
 --question 3:
-   UPDATE syntax_practice SET account_balance = '10.00' WHERE transactions_completed = '0' and account_balance = '0';
+   UPDATE syntax_practice SET account_balance = '10.00' WHERE transactions_completed = '0' AND account_balance = '0';
 --question 4:
    SELECT * FROM syntax_practice WHERE transactions_attempted > 9;
 --question 5:
